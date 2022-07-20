@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/atkinsonhyperlegible/v9/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45G04pIoWQeCbA.woff2) format('woff2');
+  }
+
+* {
+  font-size:inherit !important;
+  font-family: 'Atkinson Hyperlegible', sans-serif !important;
+  font-size-adjust: none !important;
+}
+
+h1[class] { font-size: 1.75em !important; margin-bottom: 0.765em !important;}
+h2[class] { font-size: 1.5em !important;  margin-bottom: 0.855em !important; }
+h3[class] { font-size: 1.25em !important;  margin-bottom: 0.956em !important; }
+h4[class] { font-size: 1em !important;  margin-bottom: 1.161em !important; }
+h5[class] { font-size: .75em !important;  margin-bottom: 1.238em !important; }
+h6[class] { font-size: .5em !important;  margin-bottom: 1.238em !important; }
+
+/* nexusmods */
+div.container.mod_description_container.condensed {
+	font-weight: 400 !important;
+	font-family: 'Atkinson Hyperlegible', sans-serif !important;
+	font-size: 1em !important;
+  }
+  
+  
