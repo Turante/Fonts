@@ -1,0 +1,111 @@
+/* ==UserStyle==
+@name           Atkinson Hyperlegible 2
+@namespace      Uerstyles.world
+@author         Me
+@description    Applies the Atkinson Hyperlegible Font to all webpages.
+@version        2022.7.20
+@license        CC
+@preprocessor   uso
+==/UserStyle== */
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("https://fonts.gstatic.com/s/atkinsonhyperlegible/v9/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45G04pIoWQeCbA.woff2")
+      format("woff2");
+   /* url("https://github.com/Turante/Fonts/blob/main/Atkinson-Hyperlegible-Regular-102a.woff2")
+      format("woff2"); */
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+ /* src: url("https://www.notareal.site/fonts/Atkinson-Hyperlegible-Italic-102.woff")
+      format("woff"), */
+    url("https://github.com/Turante/Fonts/blob/main/Atkinson-Hyperlegible-Italic-102a.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+ /* src: url("https://www.notareal.site/fonts/Atkinson-Hyperlegible-Bold-102.woff")
+      format("woff"), */
+    url("https://github.com/Turante/Fonts/blob/main/Atkinson-Hyperlegible-Bold-102a.woff2")
+      format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+ /* src: url("https://www.notareal.site/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff")
+      format("woff"), */
+    url("https://github.com/Turante/Fonts/blob/main/Atkinson-Hyperlegible-BoldItalic-102a.woff2")
+      format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+a,
+abbr,
+article,
+aside,
+b,
+blockquote,
+caption,
+cite,
+dd,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+figcaption,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+i,
+li,
+main,
+mark,
+menu,
+ol,
+p,
+q,
+s,
+section,
+small,
+span,
+strong,
+sub,
+summary sup,
+time,
+u,
+ul {
+  font-family: "Atkinson Hyperlegible" !important;
+}
+:root {
+  font-size: 1rem !important;
+}
+p {
+  font-size: 1.15rem;
+  font-stretch: 100%;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+* {
+  max-inline-size: 65ch;
+}
+html,
+body,
+div,
+header,
+nav,
+main,
+footer {
+  max-inline-size: none;
+}
