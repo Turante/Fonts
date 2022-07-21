@@ -88,7 +88,7 @@ summary sup,
 time,
 u,
 ul {
-  font-family: "Atkinson Hyperlegible" !important;
+  font-family: "Atkinson Hyperlegible", FontAwesome, mail, date3, uh, octicons, ddg-serp-icons !important;
 }
 :root {
   font-size: 1rem !important;
