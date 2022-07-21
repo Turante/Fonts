@@ -7,6 +7,8 @@
 @license        CC
 @preprocessor   uso
 ==/UserStyle== */
+@-moz-document regexp("https?://.*")
+
 @font-face {
   font-family: "Atkinson Hyperlegible";
   src: url("https://fonts.gstatic.com/s/atkinsonhyperlegible/v9/9Bt23C1KxNDXMspQ1lPyU89-1h6ONRlW45G04pIoWQeCbA.woff2")
