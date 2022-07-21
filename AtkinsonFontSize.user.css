@@ -12,7 +12,7 @@
 ==/UserStyle== */
 
 @-moz-document regexp("https?://.*")
-/*html*/
+
 @font-face {
   font-family: 'Atkinson Hyperlegible';
   font-style: normal;
