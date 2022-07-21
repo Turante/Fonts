@@ -1,0 +1,42 @@
+/* ==UserStyle==
+@name         Boilerplate
+@namespace    boilerplate 
+@description  boilerplate 
+@author       Me
+@homepageURL  
+@supportURL   
+@updateURL    
+@preprocessor stylus
+@version      0.1
+@license      MIT
+==/UserStyle== */
+
+/* regular expression covering all https websites*/
+@-moz-document regexp("https?://.*")
+
+/* domain only */
+@-moz-document domain("example.com")
+
+/* specific url*/
+@-moz-document url("www.example.com")
+
+/* nested into specific url */
+@-moz-document url-prefix("www.example.com/forums/aspecificforum")
+
+/* Selects the root element of the document:
+   <html> in the case of HTML. Can be useful for declaring global CSS variables */
+:root {
+	
+  }
+
+/*html*/
+html {
+
+  }
+  
+/* where things should usually start*/
+body {
+	
+  }
+  
+  
