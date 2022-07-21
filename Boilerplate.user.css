@@ -23,7 +23,7 @@
 /* nested into specific url */
 @-moz-document url-prefix("www.example.com/forums/aspecificforum")
 
-/* Selects the root element of the document, <html> in the case of HTML. Can be useful for declaring global CSS variables */
+/* Selects the root element of the document, <html> in the case of HTML */
 :root {
 	
   }
