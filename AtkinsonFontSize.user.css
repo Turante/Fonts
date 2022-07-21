@@ -1,3 +1,18 @@
+/* ==UserStyle==
+@name         Atkinson Font Size enforcer
+@namespace    atkinsonfontsize
+@description  Big text and Atkinson 
+@author       Me
+@homepageURL  
+@supportURL   
+@updateURL    
+@preprocessor stylus
+@version      0.1
+@license      MIT
+==/UserStyle== */
+
+@-moz-document regexp("https?://.*")
+/*html*/
 @font-face {
   font-family: 'Atkinson Hyperlegible';
   font-style: normal;
